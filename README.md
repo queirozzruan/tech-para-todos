@@ -19,10 +19,6 @@ Estrutura inicial em desenvolvimento.
 - Swagger UI Express e swagger-autogen
 - ESLint e Prettier
 
-## Documentação
-
-- [Software Design Document](docs/SDD.md)
-
 ## Escopo inicial
 
 - CRUD de oficinas
