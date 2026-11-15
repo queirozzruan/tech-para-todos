@@ -6,7 +6,7 @@ O sistema permitirá cadastrar oficinas e participantes, gerenciar inscrições,
 
 ## Status
 
-Em planejamento.
+Estrutura inicial em desenvolvimento.
 
 ## Stack planejada
 
@@ -18,10 +18,6 @@ Em planejamento.
 - Jest e Supertest
 - Swagger UI Express e swagger-autogen
 - ESLint e Prettier
-
-## Documentação
-
-- [Software Design Document](docs/SDD.md)
 
 ## Escopo inicial
 
@@ -35,5 +31,31 @@ Em planejamento.
 
 ## Desenvolvimento
 
-As instruções de instalação, execução e testes serão adicionadas com a criação da estrutura Node.js.
+Requisitos: Node.js 18 ou superior.
+
+```bash
+npm install
+cp .env.example .env
+npm run dev
+```
+
+A API ficará disponível em `http://localhost:3000`. Para verificar a execução:
+
+```text
+GET http://localhost:3000/api/v1/health
+```
+
+### Testes
+
+```bash
+npm test
+npm run test:coverage
+```
+
+### Qualidade de código
+
+```bash
+npm run lint
+npm run format:check
+```
 

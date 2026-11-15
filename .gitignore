@@ -30,6 +30,9 @@ tmp/
 temp/
 .cache/
 
+# Local project documentation
+/docs/
+
 # Editors and operating systems
 .vscode/
 .idea/
