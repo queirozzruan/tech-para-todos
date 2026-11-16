@@ -10,4 +10,3 @@ apiRouter.get('/health', (request, response) => {
 });
 
 module.exports = { apiRouter };
-

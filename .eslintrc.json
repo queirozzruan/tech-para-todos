@@ -14,4 +14,3 @@
   },
   "ignorePatterns": ["coverage/", "node_modules/", "swagger.json"]
 }
-

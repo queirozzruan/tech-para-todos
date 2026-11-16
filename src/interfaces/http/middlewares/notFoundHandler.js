@@ -9,4 +9,3 @@ function notFoundHandler(request, response) {
 }
 
 module.exports = { notFoundHandler };
-
