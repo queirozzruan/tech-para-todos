@@ -8,4 +8,3 @@ const app = createApp();
 app.listen(port, () => {
   console.log(`TechParaTodos API running on port ${port}`);
 });
-
