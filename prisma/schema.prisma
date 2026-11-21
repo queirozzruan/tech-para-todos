@@ -7,3 +7,22 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+model Workshop {
+  id                   String   @id
+  title                String
+  description          String
+  topic                String
+  instructorName       String
+  location             String
+  capacity             Int
+  registrationDeadline DateTime
+  startsAt             DateTime
+  endsAt               DateTime
+  status               String
+  createdAt            DateTime @default(now())
+  updatedAt            DateTime @updatedAt
+
+  @@index([status, startsAt])
+  @@map("workshops")
+}
+
